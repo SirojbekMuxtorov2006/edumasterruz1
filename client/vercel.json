@@ -1,2 +1,8 @@
-Build Failed
-The `vercel.json` schema validation failed with the following message: `routes[0]` should NOT have additional property `dist`
+{
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/index.html"
+		}
+	]
+}
